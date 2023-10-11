@@ -1,0 +1,32 @@
+{
+  "name": "inventory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "R K Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1472.0",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.9",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4",
+    "mongoose": "^7.6.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7",
+    "q": "^1.5.1",
+    "request": "^2.88.2"
+  }
+}
