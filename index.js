@@ -13,7 +13,7 @@ connectDB();
 app.use(express.json({extended : false}));
 app.use(express.urlencoded({ extended: true }));
 
-app.get('/', (req,res) => res.send('API running...'));
+app.get('/', (req,res) => res.send('Inventory Dev API Running...'));
 
 // Define Routes
 // app.use('/api/admin', require('./routes/api/admin'));
